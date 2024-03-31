@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: "security-concepts"
+
+  datasource:
+    url: "jdbc:mysql://localhost/sb_jan"
+    username: "root"
+    password: "root"
+  jpa:
+    hibernate:
+      ddl-auto: update
+
